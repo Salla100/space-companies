@@ -174,7 +174,7 @@ COMPANIES = [
     C(name="Neuraspace", country="PT", city="Coimbra", lat=40.21, lng=-8.42, founded=2020, stage="startup", cats=["ssa"],
       tagline="AI-driven collision avoidance and space domain awareness.", web="https://www.neuraspace.com"),
     C(name="Deimos Space", country="ES", city="Tres Cantos", lat=40.60, lng=-3.71, founded=2001, stage="established", cats=["ssa", "ops"],
-      tagline="Space surveillance, flight dynamics and mission analysis; part of Indra since 2024.", listed="IDR.MC", web="https://deimos-space.com"),
+      tagline="Space surveillance, flight dynamics and mission analysis; part of Indra since 2024.", listed="IDR.MC", web="https://space.indragroup.com/en"),
     C(name="Project-S", country="DE", city="Munich", lat=48.14, lng=11.58, founded=2026, stage="startup", cats=["ssa"],
       tagline="End-to-end orbital intelligence and space traffic management.",
       status="Came out of stealth with seed funding, Sep 2026."),

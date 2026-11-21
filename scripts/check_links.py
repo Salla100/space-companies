@@ -23,6 +23,14 @@ def check(c):
                 return c["name"], e.code, url
         except Exception as e:
             if method == "GET":
+                if "unable to get local issuer" in str(e):
+                    # incomplete chain on the server; browsers fetch the missing intermediate, so treat as a warning
+                    try:
+                        req = urllib.request.Request(url, headers={"User-Agent": UA})
+                        with urllib.request.urlopen(req, timeout=20, context=ssl._create_unverified_context()) as r:
+                            return c["name"], r.status, f"{r.geturl()} (warning: incomplete TLS chain)"
+                    except Exception:
+                        pass
                 return c["name"], 0, f"{url} ({type(e).__name__}: {e})"
     return c["name"], 0, url
 
