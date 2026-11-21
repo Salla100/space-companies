@@ -8,7 +8,7 @@
 ## What it does
 Curated directory of European space infrastructure companies, with startups tagged: launch providers, spaceports,
 rideshare and in-space transport, satellite and bus builders, ground stations, mission control software, tracking and SSA,
-and propulsion. It has a filterable card grid and a Leaflet map (CARTO dark tiles).
+and propulsion. It has a filterable card grid and a Leaflet map (OpenStreetMap tiles, darkened with a CSS filter; no API key).
 
 ## Editing data
 The source of truth is `scripts/build_data.py`, in the COMPANIES list. Edit it there, then run `python scripts/build_data.py`
