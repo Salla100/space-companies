@@ -285,7 +285,7 @@
     "transport"
    ],
    "tagline": "ION Satellite Carrier: last-mile delivery and in-orbit hosting.",
-   "web": "https://www.dorbit.space"
+   "web": "https://dorbit.space"
   },
   {
    "id": "deimos-space",
@@ -300,8 +300,9 @@
     "ssa",
     "ops"
    ],
-   "tagline": "Space surveillance, flight dynamics and mission analysis (Elecnor group).",
-   "web": "https://elecnor-deimos.com"
+   "tagline": "Space surveillance, flight dynamics and mission analysis; part of Indra since 2024.",
+   "listed": "IDR.MC",
+   "web": "https://deimos-space.com"
   },
   {
    "id": "el-arenosillo-cedea",
@@ -424,8 +425,8 @@
    "cats": [
     "spaceport"
    ],
-   "tagline": "Mobile launch platform concept in the German North Sea.",
-   "web": "https://www.offshore-spaceport.de"
+   "tagline": "Mobile launch-ship concept in the German North Sea; OHB-led consortium.",
+   "status": "Permits still pending."
   },
   {
    "id": "gmv",
@@ -743,8 +744,8 @@
    "web": "https://www.open-cosmos.com"
   },
   {
-   "id": "pangea-aerospace",
-   "name": "Pangea Aerospace",
+   "id": "pangea-propulsion",
+   "name": "Pangea Propulsion",
    "country": "ES",
    "city": "Barcelona",
    "lat": 41.39,
@@ -754,8 +755,8 @@
    "cats": [
     "propulsion"
    ],
-   "tagline": "3D-printed aerospike rocket engines.",
-   "web": "https://pangeaaerospace.com"
+   "tagline": "Chemical rocket engines incl. aerospike; formerly Pangea Aerospace.",
+   "web": "https://www.pangeapropulsion.com"
   },
   {
    "id": "pld-space",
@@ -771,7 +772,7 @@
    ],
    "tagline": "Miura 5 partly reusable small launcher; flew suborbital Miura 1 in 2023.",
    "status": "Building its own launch complex in Kourou for Miura 5.",
-   "web": "https://www.pldspace.com"
+   "web": "https://pldspace.com"
   },
   {
    "id": "project-s",
@@ -927,7 +928,7 @@
    ],
    "tagline": "State-owned space infrastructure: Arctic Satellite Broadband Mission, Svalbard fibre.",
    "owner": "Norwegian state",
-   "web": "https://spacenorway.no"
+   "web": "https://spacenorway.com"
   },
   {
    "id": "spacebel",
